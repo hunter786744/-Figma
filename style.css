@@ -1,0 +1,891 @@
+@font-face {
+    font-family:Gilory-Reguler ;
+    src: url(./font/gilroy/Gilroy-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family:Gilory-Reguler ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100% ;
+}
+.container{
+    width:100% ;
+}
+/* header css start */
+header{
+    width:100% ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    height:116px ;
+    align-items: center;
+}    
+.header h2{
+    font-family:Homemade Apple ;
+    width:15%;
+    height: 39px;
+    line-height:39px ;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    margin-left:30px ;
+}
+.links{
+    width:65% ;
+}
+.links ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style:none ;
+}
+.links ul li a{
+    text-decoration: none;
+    padding: 0 10px ;
+    margin:0 10px ;
+    color: black;
+    font-weight:600;
+}
+.links ul li a:hover{
+    background-color:#F7941E ;
+    color: white;
+    padding:10px 10px ;
+    border-radius:10px ;
+}
+.header button{
+    width: 140px;
+    height: 38.67px;
+    color:#F7941E ;
+    background-color:transparent ;
+    border: none;
+    border:1.5px solid #F7941E ;    
+    border-radius:5px ;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right:30px ;
+}
+.header button:hover{
+    background-color:#F7941E;
+    color: white;
+}
+/* header css end */
+
+
+
+
+/* section-1 css start */
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+}
+.con-1,.con-2{
+    width: 50%;
+}
+.con-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F2;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.con-1 h1{
+    width: 400px;
+    font-size:50px ;
+    font-weight:bolder ;
+    margin-bottom:30px ;
+}
+.con-1 p{
+    font-size:20px ;
+    width: 400px;
+    font-weight:600 ;
+    margin-bottom:50px ;
+}
+.con-1 button{
+    width:200px ;
+    height:60px ;
+    border:none ;
+    background-color: #F7941E;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.con-1 button:hover{
+    background-color: #F1F1F2;
+    color: #F7941E;
+    border: none;
+    border:1px solid #F7941E ;
+}
+.con-2 img{
+    width:100% ;
+}
+
+/* section-1 css end */
+
+
+
+
+/* section-2 css start */
+.container-2{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+}
+.con-3,.con-4{
+    width: 50%;
+}
+.con-3 img{
+    width:100% ;
+}
+.con-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F2;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:20px ;
+}
+.second h1{
+    font-size:32px ;
+    font-weight:500 ;
+    margin-bottom:20px ;    
+}
+.second p{
+    width:440px;
+    font-size: 20px;
+    margin-bottom:30px ;
+    line-height:30px ;
+}
+.second button{
+    width: 200px;
+    height:60px ;
+    font-size:18px ;
+    color: #F7941E;
+    background-color: transparent;
+    border: none;
+    border:1px solid #F7941E ;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.second button:hover{
+    background-color: #F7941E;
+    color:#F1F1F2 ;
+}
+/* section-2 css end */
+/* section-3 css start */
+.three{
+    margin:100px 80px 150px;
+}
+.wraper{
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wraper-1,.wraper-2{
+    display: flex;
+    flex-direction: row;
+    width:50% ;
+}
+.wraper h1{
+    font-size:32px ;
+    font-weight:500 ;
+    margin-bottom:15px ;
+}
+.wraper p{
+    font-size:18px ;
+    margin-bottom:70px ;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+}
+.wrap a{
+    text-decoration: none;
+    color:black ;
+}
+.wrap a:hover{
+    background-color: white;
+}
+.wrap-1,.wrap-2,.wrap-3,.wrap-4{
+    width:100%;
+    background-color:#fafafa;
+    margin:0 20px;
+    padding-bottom:20px ;
+}
+.wrap-1:hover{
+    background-color:white ;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.wrap-2:hover{
+    background-color:white ;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.wrap-3:hover{
+    background-color:white ;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.wrap-4:hover{
+    background-color:white ;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.wrap img{
+    width:100% ;
+}
+.wrap h2{
+    font-weight:500 ;
+    padding:20px 0px 70px ;
+    padding-left:20px ;
+    font-size:20px ;
+}
+.visit{
+    padding:20px 20px ;
+    font-size: 14px;
+}
+/* section-3 css end */
+/* section-4 css start */
+.banner{
+    width:100% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7941E;
+    padding:80px 0 ;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    width:50% ;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:50% ;
+}
+.heading h1{
+    font-size: 32px;
+    font-weight:900;
+}
+.heading h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.btn-1{
+    width: 200px;
+    height:48px ;
+    font-size:18px ;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #231F20;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    background-color: transparent;
+    color:#231F20 ;
+    border: none;
+    border: 1px solid #231F20;
+}
+.btn-2{
+    width: 200px;
+    height:48px ;
+    font-size:18px ;
+    margin-left:15px ;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border:1px solid black ;
+    border-radius:5px ;    
+}
+.btn-2:hover{
+    background-color:black ;
+    color:white;
+}
+/* section-4 css end */
+/* section-5 css start */
+.blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:100px 0  70px;
+}
+.blog h1{
+    font-size:32px ;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.blog p{
+    font-size:18px ;
+}
+/* section-5 css end */
+/* section-6 css start */
+.six{
+    width:100% ;
+}
+.copule{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cop-1{
+    width:30% ;
+}
+.cop-1 img{
+    width: 100%;
+}
+.cop-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width:60% ;
+    background-color: #231F20;
+    color: white;
+}
+.cop-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cop-3 p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.cop-3 h1{
+    font-size: 45px;
+    font-weight:500 ;
+    width:450px ;
+    margin-bottom: 60px;
+}
+.cop-3 a{
+    text-decoration: none;
+    color: white;
+    font-size:18px ;
+    padding:5px 5px ;
+    width:100px ;
+}
+.cop-3 a:hover{
+    background-color:white ;
+    color:#231F20 ;
+    border-radius: 5px;
+}
+/* section-6 css end */
+
+
+/* section-7 css start */
+.seven{
+    width: 100%;
+}
+.article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:50px 0px ;
+}
+.article-1,.article-2{
+    display: flex;
+    flex-direction: column;
+    width:40% ;
+    margin:20px 30px ;
+    padding:50px ;
+}
+.article-1:hover{
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.article-2:hover{
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.1 ) ;
+}
+.article a{
+    text-decoration: none;
+    color: black;
+}
+.article h2{
+    width: 470px;
+    font-size: 24px;
+    font-weight:bolder ;
+    margin-bottom:20px ;
+}
+.article p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.art-1{
+    font-size:14px ;
+    padding:5px ;
+    width:100px ;
+    text-align: center;
+}
+.art-1:hover{
+    background-color:black ;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+}
+
+/* section-7 css end */
+/* section-8 css start*/
+.eight{
+    width: 100%;
+    padding:0 200px ;
+    background-color:#fafafa ;
+}
+.nav-link{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:100px 0 50px;
+    border-bottom:1px solid black ;
+}
+.nav-link p{
+    color: #F7941E;
+    font-family:Homemade Apple ;
+    margin:0 90px ;
+    font-size: 18px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-size:14px ;
+    margin:0 30px ;
+    font-weight: 600;
+    padding: 5px;
+}
+.nav-link a:hover{
+    background-color:#F7941E;
+    color: white;
+    border-radius:5px ;
+}
+
+/* section-8 css end */
+/* footer css start */
+footer{
+    width: 100%;
+    background-color:#fafafa ;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socail-links{
+    margin:50px 0 ;   
+}
+.socail-links i{
+    width:38.5px ;
+    height: 38.5px;
+    text-align: center;
+    line-height:38.5px ;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin:0 15px ;
+    font-size: 18px;
+    cursor: pointer;
+}
+.copyright{
+    margin:40px 0 ;
+}
+.copyright p{
+    font-size: 15px;
+}
+/* footer css end */
+
+
+
+/* responsive css start */
+@media screen and (max-width:1280px){
+    .con-1 h1{
+        width: 350px;
+        font-size:43px ;
+        margin-bottom:20px ;
+    }
+    .con-1 p{
+        font-size:18px ;
+        width: 350px;
+        margin-bottom:40px ;
+    }
+    .con-1 button{
+        width:180px ;
+        height:50px ;
+        font-size: 15px;
+    }
+    .second h1{
+        width: 350px;
+        font-size:32px ;
+        margin-bottom:20px ;    
+    }
+    .second p{
+        font-size:18px ;
+        width: 350px;
+        margin-bottom:30px ;
+        line-height: 25px;
+    }
+    .second button{
+        width:180px ;
+        height:50px ;
+        font-size: 15px;
+    }
+    .cop-3 p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .cop-3 h1{
+        font-size: 38px;
+        font-weight:500 ;
+        width:400px ;
+        margin-bottom: 40px;
+    }
+    .cop-3 a{
+        font-size:16px ;
+    }
+    .article-1,.article-2{
+        padding:0 50px;
+        width: 50%;
+    }
+    .article h2{
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .con-1 h1{
+        width: 300px;
+        font-size:30px ;
+        margin-bottom:15px ;
+    }
+    .con-1 p{
+        font-size:15px ;
+        width: 300px;
+        margin-bottom:35px ;
+    }
+    .con-1 button{
+        width:150px ;
+        height:40px ;
+        font-size: 13px;
+    }
+    .second h1{
+        width: 300px;
+        font-size:29px ;
+        margin-bottom:10px ;    
+    }
+    .second p{
+        font-size:14px ;
+        width: 300px;
+        margin-bottom:20px ;
+        line-height:18px;
+    }
+    .second button{
+        width:150px ;
+        height:40px ;
+        font-size: 13px;
+    }
+    .three{
+        margin:70px  16px;
+    }
+    .wraper-1,.wraper-2{
+        flex-direction: column;
+        margin:0 40px ;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap-1,.wrap-2,.wrap-3,.wrap-4{
+        margin:15px 0 ;
+    }
+    .cop-3 p{
+        font-size: 10px;
+        margin-bottom:7px;
+    }
+    .cop-3 h1{
+        font-size: 27px;
+        font-weight:500 ;
+        width:300px ;
+        margin-bottom: 30px;
+    }
+    .cop-3 a{
+        font-size:13px ;
+    }
+    .article{
+        margin: 30px 0;
+    }
+    .article h2{
+        font-size: 19px;
+        margin-bottom:20px ;
+    }
+    .article p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .art-1{
+        font-size:12px ;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .con-1 h1{
+        width: 250px;
+        font-size:25px ;
+        margin-bottom:10px ;
+    }
+    .con-1 p{
+        font-size:13px ;
+        width:250px;
+        margin-bottom:30px ;
+    }
+    .con-1 button{
+        width:130px ;
+        height:30px ;
+        font-size:11px;
+    }
+    .second h1{
+        width: 250px;
+        font-size:23px ;
+        margin-bottom:10px ;    
+    }
+    .second p{
+        font-size:11px ;
+        width: 250px;
+        margin-bottom:15px ;
+        line-height:15px;
+    }
+    .second button{
+        width:130px ;
+        height:30px ;
+        font-size: 11px;
+    }
+    .banner{
+        padding:50px 0 ;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    .btn-1{
+        width: 150px;
+        height:35px ;
+        font-size:15px ;
+    }
+    .btn-2{
+        width: 150px;
+        height:35px ;
+        font-size:15px ;    
+    }
+    .copule{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cop-1{
+        width: 100%;
+    }
+    .cop-2{
+        width: 100%;
+        padding:20px 0 ;
+        margin-top:-4px ;
+    }
+    .article-1,.article-2{
+        padding:20px ;
+    }
+    .eight{
+        padding:0 100px ;
+    }
+    .nav-link{
+        padding:50px 30px ;
+    }
+    .nav-link p{
+        margin:0 50px ;
+        font-size: 16px;
+    }
+    .nav-link a{
+        font-size:12px ;
+        margin:0 30px ;
+        font-weight: 600;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+    .header h2{
+        margin-left: 0;
+        margin:10px 0 ;
+    }
+    .links{
+        width:100% ;
+    }
+    .links ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links ul li{
+        margin:10px 0 ;
+    }
+    .header button{
+        margin-right:0 ;
+        width: 120px;
+        margin-top:10px ;
+        margin-bottom:10px ;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column-reverse;
+    }
+    .con-1,.con-2,.con-3,.con-4{
+        width: 100%;
+    }
+    .con-1,.con-4{
+        padding:25px 10px ;
+    }
+    .three{
+        margin:70px 16px 40px;
+    }
+    .wraper-1,.wraper-2{
+        width: 100%;
+    }
+    .wrap{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap-1,.wrap-2,.wrap-3,.wrap-4{
+        margin:15px 0 ;
+    }
+    .wraper h1{
+        font-size:26px ;
+        font-weight:500 ;
+        margin-bottom:15px ;
+        text-align: center;
+    }
+    .wraper p{
+        font-size:15px ;
+        margin-bottom:70px ;
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .heading,.btn{
+        width: 100%;
+        margin:10px 0 ;
+    }
+    .btn{
+        flex-direction: column;
+    }
+    .heading h1{
+        font-size: 22px;
+    }
+    .heading h2{
+        font-size: 22px;
+    }
+    .btn-2{
+        margin:13px 0 0 ;    
+    }
+    .blog h1{
+        font-size:25px ;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .blog p{
+        font-size:15px ;
+        text-align: center  ;
+        padding:0 10px ;
+    }
+    .cop-3{
+        justify-content: center;
+        align-items: center;
+    }
+    .cop-3 p{
+        font-size: 10px;
+        margin-bottom:7px;
+    }
+    .cop-3 h1{
+        font-size: 27px;
+        width:auto ;
+        text-align: center;
+        padding:0 10px ;
+    }
+    .cop-3 a{
+        font-size:13px ;
+        text-align: center;
+    }
+    .article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:50px 0 ;
+    }
+    .article-1,.article-2{
+        width:100% ;
+        text-align: center;
+        margin:5px 20px ;
+        justify-content: center;
+        align-items: center;
+    }
+    .eight{
+        padding:0 100px ;
+    }
+    .nav-link{
+        padding:30px 0 ;
+        flex-direction:column ;
+    }
+    .nav-link p{
+        margin:20px 0 ;
+        font-size: 18px;
+    }
+    .nav-link a{
+        font-size:15px ;
+        margin:5px 0 ;
+    }
+    .socail-links i{
+        width:30px ;
+        height: 30px;
+        line-height:30px ;
+        font-size:15px ;
+        margin:0 7px ;
+    }
+    .copyright p{
+        font-size:12px ;
+    }
+}
+
+/* responsive css end */
